@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: 400;
+    src: url("./fonts/ptsans.woff2") format("woff2"),
+        url("./fonts/ptsans.woff") format("woff");
+}
+
+@font-face {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: 700;
+    src: url("./fonts/ptsansbold.woff2") format("woff2"),
+        url("./fonts/ptsansbold.woff") format("woff");
+}
+
+body {
+    font-family: "PT Sans", "Arial", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}

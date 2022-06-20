@@ -1,0 +1,98 @@
+.header {
+    margin-top: 20px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .button {
+        margin: auto;
+    }
+}
+
+.button {
+    // margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 6px;
+    text-transform: inherit;
+    background-color: white;
+
+    &-whatsapp {
+        box-shadow: 0px 0px 10px #43d854;
+        color: #43d854;
+        outline: #43d854;
+    }
+
+    &-facebook {
+        box-shadow: 0px 0px 10px #3b5998;
+        color: #3b5998;
+        outline: #3b5998;
+    }
+}
+
+.titles {
+    padding: 0;
+    font-size: 17px;
+}
+
+.table {
+    min-width: 500px;
+    border-spacing: 0;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+
+    &-whatsapp {
+        box-shadow: 0px 0px 10px #43d854;
+    }
+
+    &-facebook {
+        box-shadow: 0px 0px 10px #3b5998;
+    }
+}
+
+.form {
+    margin: auto;
+    padding-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-input {
+    min-width: 200px;
+    font-size: inherit;
+    text-transform: inherit;
+    padding: 7px 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    border: none;
+
+    &-whatsapp {
+        background-color:#43d85446;
+        outline: 2px solid  #43d854;
+    }
+
+    &-facebook {
+        background-color: #3b58985f;
+        outline: 2px solid #3b5998;
+    }
+}
+
